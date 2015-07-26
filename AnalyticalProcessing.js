@@ -1,8 +1,8 @@
-if (type include=="undefined")
+if (type include!="undefined")
 {
-	include("bower_components/sortable/css/sortable-theme-slick.css");
-//	include("bower_components/sortable/js/sortable.min.js");
-	include("bower_components/sortable/js/sortable.js");
+	include("includedrivers/sortable/css/sortable-theme-slick.css");
+//	include("includedrivers/sortable/js/sortable.min.js");
+	include("includedrivers/sortable/js/sortable.js");
 	
 }
 var AP={
